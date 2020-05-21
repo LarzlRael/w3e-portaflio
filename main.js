@@ -1,5 +1,4 @@
 const items = document.querySelectorAll('nav a');
-console.log(items);
 
 items.forEach(item => {
     item.addEventListener('click', () => {
@@ -7,3 +6,15 @@ items.forEach(item => {
         item.classList.add('w3-black');
     })
 })
+
+let mainNavLinks = document.querySelectorAll("nav a");
+
+
+let mainSections = document.querySelectorAll("main section");
+
+
+window.addEventListener("scroll", event => {
+    console.log('scroll')    
+    
+});
+
